@@ -23,4 +23,5 @@ public abstract class Mood {
     }
 
 
+    public abstract String getMood();
 }

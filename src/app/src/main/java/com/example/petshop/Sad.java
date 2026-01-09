@@ -9,7 +9,8 @@ public class Sad extends Mood{
     public Sad(){}
 
 
-    public String getSad(){
+    @Override
+    public String getMood(){
         return "sad";
 
     }

@@ -8,7 +8,8 @@ public class Happy extends Mood{
     }
     public Happy(){}
 
-    public String getHappy(){
+	@Override
+    public String getMood(){
         return "Happy";
     }
 
